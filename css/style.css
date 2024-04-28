@@ -159,10 +159,11 @@ button:focus {
 
 .company_values_header {
     font-family: inherit;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     margin-right: 24px;
+    line-height: 1.2;
 }
 
 .company_values_text {
@@ -170,9 +171,10 @@ button:focus {
     font-weight: medium;
     line-height: 24px;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: inherit;
     margin-right: 24px;
+    color: #434455;
 }
 
 #fake_header {
@@ -183,9 +185,12 @@ button:focus {
     font-family: inherit;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-align: center;
     padding-bottom: 72px;
+    line-height: 1.11;
+    text-transform: capitalize;
+
 }
 
 .workers_list, 
@@ -207,8 +212,9 @@ button:focus {
     color: #2E2F42;
     font-family: inherit;
     font-size: 20px;
-    font-weight: medium;
-    letter-spacing: 2%;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 
 .worker_workplace {
@@ -217,7 +223,7 @@ button:focus {
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .worker {
