@@ -33,10 +33,10 @@ header {
 .navigation_section {
     list-style: none;
     font-family: "Roboto", sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     display: inline-flex;
     margin-right: 332px;
 }
@@ -48,32 +48,36 @@ header {
 }
 
 .navigation_option:hover{
-    color:#404BBF
+    color:#404BBF 
 }
 
 .navigation_option:active{
-    color: #404BBF;
+    color:#404BBF;
     text-decoration: underline;
 }
 
-.address_section {
+.address_list {
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: regular;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     display: inline-flex;
+    font-style: normal;
 }
 
 .address_option{
     padding-right: 40px;
     text-decoration: none;
     color: #434455;
-    font-style: normal;
 }
 
 .address_option:hover {
+    color: #404BBF;
+}
+
+.address_option:active {
     color: #404BBF;
 }
 
