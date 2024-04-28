@@ -13,39 +13,20 @@ header {
     text-decoration: none;
     padding-right: 76px;
     margin-left: 156px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5
 }
 
-.logo_part1 {
-    font-family: "Raleway", "Roboto" sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    font-weight: bold;
-    color: #4D5AE5;
+.logo_part_header {
+    color: #2e2f42;
 }
 
-.logo_part2 {
-    font-family: "Raleway","Roboto" sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    font-weight: bold;
-    color: #2E2F42;
-}
-.logo_part3 {
-    font-family: "Raleway", "Roboto" sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    font-weight: bold;
-    color: #4D5AE5;
-}
-.logo_part4 {
-    font-family: "Raleway", "Roboto" sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    font-weight: bold;
+.logo_part_footer {
     color: #F4F4FD;
 }
 
@@ -258,6 +239,13 @@ footer {
 .logo_footer{
     text-decoration: none;
     margin-left: 156px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5
     
 }
 
