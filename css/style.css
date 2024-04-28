@@ -51,9 +51,17 @@ header {
     color:#404BBF 
 }
 
+.navigation_option:focus {
+    color: #404BBF
+}
+
 .navigation_option:active{
     color:#404BBF;
     text-decoration: underline;
+}
+
+.address_section {
+    font-style: normal;
 }
 
 .address_list {
@@ -64,7 +72,6 @@ header {
     line-height: 24px;
     letter-spacing: 0.02em;
     display: inline-flex;
-    font-style: normal;
 }
 
 .address_option{
@@ -74,6 +81,10 @@ header {
 }
 
 .address_option:hover {
+    color: #404BBF;
+}
+
+.address_option:focus {
     color: #404BBF;
 }
 
