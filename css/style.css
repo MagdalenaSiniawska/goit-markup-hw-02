@@ -133,6 +133,7 @@ button:focus {
     letter-spacing: 0.02em;
     margin-right: 24px;
     line-height: 1.2;
+    color: #2E2F42;
 }
 
 .company_values_text {
