@@ -254,6 +254,19 @@ button:focus {
     padding-bottom: 48px;
 }
 
+.portfolio_title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio_details {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 footer {
     font-family: inherit;
     text-align: left;
@@ -282,7 +295,7 @@ footer {
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-family: inherit;
     margin-left: 156px;
     padding-top: 16px;
